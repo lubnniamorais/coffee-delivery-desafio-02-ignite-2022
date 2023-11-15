@@ -1,5 +1,5 @@
-function Home() {
-  return <div>oi</div>;
+function HomePage() {
+  return <h1>Home</h1>;
 }
 
-export { Home };
+export { HomePage };
