@@ -1,5 +1,13 @@
+import { Intro } from './components/intro';
+
+import { HomeContainer } from './styles';
+
 function HomePage() {
-  return <h1>Home</h1>;
+  return (
+    <HomeContainer>
+      <Intro />
+    </HomeContainer>
+  );
 }
 
 export { HomePage };
