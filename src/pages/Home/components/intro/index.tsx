@@ -1,4 +1,4 @@
-import { ShoppingCart } from 'phosphor-react';
+import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react';
 import glassCoffeeImg from '../../../../assets/glass-coffee.svg';
 import { InfoWithIcon } from '../../../../components/InfoWithIcon';
 import { RegularText } from '../../../../components/Typography';
@@ -34,9 +34,24 @@ function Intro() {
               text="Compra simples e segura"
               iconColor={colors['brand-yellow-dark']}
             />
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
+
+            <InfoWithIcon
+              icon={<Package weight="fill" />}
+              text="Embalagem mantém o café intacto"
+              iconColor={colors['base-text']}
+            />
+
+            <InfoWithIcon
+              icon={<Timer weight="fill" />}
+              text="Entrega rápida e rastreada"
+              iconColor={colors['brand-yellow']}
+            />
+
+            <InfoWithIcon
+              icon={<Coffee weight="fill" />}
+              text="O café chega fresquinho até você"
+              iconColor={colors['brand-purple']}
+            />
           </BenefitsContainer>
         </div>
 
